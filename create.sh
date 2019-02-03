@@ -20,6 +20,7 @@ lb config \
 	--system live \
 	--firmware-binary true
 
-mkdir -p config/package-lists/
+mkdir -p config/package-lists
 
 echo "task-gnome-desktop" > config/package-lists/desktop.list.chroot
+echo "debian-installer-launcher" > config/package-lists/installer.list.chroot
