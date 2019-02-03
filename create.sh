@@ -4,7 +4,7 @@ ROOT_PATH="$(cd "$(dirname "$0")" && pwd)"
 cd "${ROOT_PATH}" || exit 1
 
 lb config \
-	--distribution stretch \
+	--distribution testing \
 	--architecture amd64 \
 	--debian-installer live \
 	--binary-images iso-hybrid \
