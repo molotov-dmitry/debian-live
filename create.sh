@@ -19,7 +19,7 @@ lb config \
 	--system live \
 	--firmware-binary true \
         --parent-debian-installer-distribution daily \
-	--archive-areas "main non-free contrib" \
+	--archive-areas "main non-free non-free-firmware contrib" \
 	--parent-mirror-bootstrap 'http://mirror.yandex.ru/debian/' \
 	--parent-mirror-binary 'http://mirror.yandex.ru/debian/' \
 	--mirror-bootstrap 'http://mirror.yandex.ru/debian/' \
